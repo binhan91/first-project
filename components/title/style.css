@@ -1,0 +1,25 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+.section-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.section-line {
+    height: 2px;
+    background: #eee;
+    width: 100%;
+}
+
+.section-title-main {
+    border: 2px solid rgba(0,0,0,.1);
+    padding: .3em .8em;
+    font-size: 1.5em;
+    color: rgb(85, 85, 85);
+    text-transform: uppercase;
+}
